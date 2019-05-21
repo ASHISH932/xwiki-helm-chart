@@ -14,7 +14,7 @@ spec:
   rules:
   -  http:
       paths:
-      - path: /xwiki
+      - path: /
         backend:
           serviceName: {{ template "fullname" . }}
           servicePort: {{ .Values.service.externalPort }}

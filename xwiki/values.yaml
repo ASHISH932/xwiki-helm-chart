@@ -18,11 +18,13 @@ resources:
     memory: 250Mi
 env:
   - name: 'DB_USER'
-    value: 'root'
+    value: 'xwiki'
   - name: 'DB_PASSWORD'
-    value: 'Mxc0TQ9r3U'
+    value: 'xwiki'
   - name: 'DB_HOST'
-    value: 'altered-lizard-mysql'
+    value: 'mysql-xwiki'
+  - name: 'DB_DATABASE'
+    value: 'xwiki'
 ingress:
   enabled: true
   issuer: dev-issuer
