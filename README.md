@@ -9,12 +9,15 @@ This is a helm chart for deployment of xwiki on Kubernetes
 ```bash
 minikube addons enable ingress
 ```
+<<<<<<< HEAD
 * Setup Mysql
 
 ```bash
 helm install --name mysql-xwiki --set mysqlRootPassword=xwiki,mysqlUser=xwiki,mysqlPassword=xwiki,mysqlDatabase=xwiki,imageTag=5.7 stable/mysql
 ```
 
+=======
+>>>>>>> 5a1bdcb4ce004cbe959a726306ccd3c630a47443
 * Install chart
 
 ```bash
